@@ -10,9 +10,8 @@ public class App {
            File file = new File("hello.txt");
            System.out.println("The hello.txt file exist: " + file.exists());
 
-           try {
-               FileReader reader = new FileReader(file);
-               BufferedReader buffReader= new BufferedReader(reader);
+           try (FileReader reader = new FileReader(file);
+                BufferedReader buffReader= new BufferedReader(reader)) {
                String text = buffReader.readLine();
                System.out.println(text);
            } catch (IOException e) {
