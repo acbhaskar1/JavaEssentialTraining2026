@@ -63,13 +63,19 @@ public class App {
             int customNum2 = Integer.parseInt(scanner.nextLine().trim());
 
             System.out.println("\nExecuting your custom case...");
-            List<String> customOutput = solver.solveAndExplainSum(customNum1, customNum2);
+
+            // ADD or EDIT YOUR CODE ON LINE NO:69 DON'T TOUCH ANY OTHER CODE
+
+            List<String> customOutput = null;
 
             System.out.println("-------------------------------------------------");
             System.out.println("OUTPUT RECEIVED FROM YOUR SOLUTION:");
-            for (String step : customOutput) {
-                System.out.println(" > " + step);
+            if(customOutput != null) {
+                for (String step : customOutput) {
+                    System.out.println(" > " + step);
+                }
             }
+
             System.out.println("-------------------------------------------------");
 
         } catch (NumberFormatException e) {
