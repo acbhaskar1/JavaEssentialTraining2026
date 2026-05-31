@@ -1,4 +1,6 @@
-// What is 45% of 90 generalise this program
+//Day 1
+//1. Warm-up: if 45% of x is 90, what is x?
+//2. Generalise the solution.
 package com.akshaya;
 
 import java.util.Scanner;
