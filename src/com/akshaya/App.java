@@ -1,8 +1,7 @@
-//Program to input two numbers and calculate sum
+//Day 1
+//1. Warm-up: if 45% of x is 90, what is x?
 
 package com.akshaya;
-
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
