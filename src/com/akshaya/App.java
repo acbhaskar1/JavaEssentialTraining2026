@@ -1,8 +1,6 @@
-//Program to input two numbers and calculate sum
+// File reading
 
 package com.akshaya;
-
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
