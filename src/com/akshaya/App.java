@@ -1,7 +1,5 @@
-// adding models to the programming style
+// adding models to the programming style the practice solution code is branch 07_02
 package com.akshaya;
-
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
