@@ -1,5 +1,4 @@
-//Program to input two numbers and calculate sum
-
+// adding models to the programming style
 package com.akshaya;
 
 import java.util.Scanner;
